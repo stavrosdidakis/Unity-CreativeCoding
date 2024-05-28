@@ -3,4 +3,4 @@
 
 ## 1 Curved Lines
 
-![Screenshot](1 Curved Lines.jpg)
+![Screenshot](1_Curved_Lines.jpg)
