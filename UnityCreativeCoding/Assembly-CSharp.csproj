@@ -63,17 +63,16 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/1 Curved Lines/CurvedLines.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/1 Curved Lines/LinesOscillation.cs" />
+    <Compile Include="Assets/6 Tangled Circles/TangledCircles.cs" />
     <Compile Include="Assets/2 Offset Lines/OffsetLines.cs" />
     <Compile Include="Assets/3 Spiral Lines/SpiralLines.cs" />
     <Compile Include="Assets/4 Perlin Lines/PerlinLines.cs" />
+    <Compile Include="Assets/5 Morphed Circles/MorphedCircles.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/3 Spiral Lines/RotationalHueShader_URP.shader" />
-    <None Include="Assets/2 Offset Lines/RotationalHueShader_URP.shader" />
-    <None Include="Assets/1 Curved Lines/RotationalHueShader_URP.shader" />
-    <None Include="Assets/4 Perlin Lines/RotationalHueShader_URP.shader" />
+    <None Include="Assets/Textures - Shaders/RotationalHueShader_URP.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

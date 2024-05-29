@@ -11,8 +11,6 @@ public class SpiralLines : MonoBehaviour
     public float baseFrequency = 1.0f;
     public float noiseScale = 0.1f;
     public float noiseIntensity = 0.5f;
-    public float rotationSpeed = 20f;
-    public float scaleSpeed = 0.5f;
     public float phaseShift = 0.2f;
 
     private LineRenderer[] lineRenderers;
@@ -20,6 +18,9 @@ public class SpiralLines : MonoBehaviour
 
     void Start()
     {
+        // Set the parent GameObject's initial position
+        transform.position = new Vector3(0, -5, 12);
+
         lineRenderers = new LineRenderer[numberOfLines];
         initialPhases = new float[numberOfLines];
 
@@ -27,6 +28,7 @@ public class SpiralLines : MonoBehaviour
         {
             GameObject lineObj = new GameObject("Line" + i);
             lineObj.transform.parent = transform;
+            lineObj.transform.localPosition = Vector3.zero; // Ensure the line object has no offset
 
             LineRenderer lineRenderer = lineObj.AddComponent<LineRenderer>();
             lineRenderer.positionCount = pointsPerLine;
@@ -47,9 +49,6 @@ public class SpiralLines : MonoBehaviour
         {
             UpdateLinePositions(i, time);
         }
-
-        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
-        transform.localScale = Vector3.one * (1 + Mathf.Sin(time * scaleSpeed) * 0.1f);
     }
 
     void UpdateLinePositions(int lineIndex, float time)

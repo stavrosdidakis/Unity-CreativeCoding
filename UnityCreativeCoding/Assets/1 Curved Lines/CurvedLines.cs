@@ -21,6 +21,9 @@ public class LinesOscillation : MonoBehaviour
 
     void Start()
     {
+        // Ensure the parent GameObject is at the origin
+        transform.position = new Vector3 (-5, -10, 12);
+
         lineRenderers = new LineRenderer[numberOfLines];
         controlPoints = new Vector3[numberOfLines][];
 
@@ -28,6 +31,8 @@ public class LinesOscillation : MonoBehaviour
         {
             GameObject lineObj = new GameObject("Line" + i);
             lineObj.transform.parent = transform;
+            lineObj.transform.localPosition = Vector3.zero; // Ensure the line object has no offset
+
             LineRenderer lineRenderer = lineObj.AddComponent<LineRenderer>();
             lineRenderer.positionCount = pointsPerLine;
             lineRenderer.material = lineMaterial;

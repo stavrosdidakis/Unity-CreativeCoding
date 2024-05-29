@@ -16,6 +16,9 @@ public class PerlinLines : MonoBehaviour
 
     void Start()
     {
+        // Ensure the parent GameObject is at the desired position
+        transform.position = new Vector3(0, -5, 7);
+
         InitializeLineRenderers();
     }
 
@@ -37,13 +40,14 @@ public class PerlinLines : MonoBehaviour
         {
             GameObject lineObj = new GameObject("Line" + i);
             lineObj.transform.parent = transform;
+            lineObj.transform.localPosition = Vector3.zero; // Ensure the line object has no offset
 
             LineRenderer lineRenderer = lineObj.AddComponent<LineRenderer>();
             lineRenderer.positionCount = pointsPerLine;
             lineRenderer.material = lineMaterial;
             lineRenderer.colorGradient = colorGradient;
             lineRenderer.widthCurve = new AnimationCurve(new Keyframe(0, 0.05f), new Keyframe(1, 0.02f));
-            lineRenderer.useWorldSpace = false;  // Use local space
+            lineRenderer.useWorldSpace = false;  // Use local space relative to the parent
             lineRenderers[i] = lineRenderer;
         }
     }

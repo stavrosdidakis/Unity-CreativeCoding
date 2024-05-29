@@ -22,6 +22,8 @@ public class OffsetLines : MonoBehaviour
 
     void Start()
     {
+        transform.position = new Vector3(-5, -5, 8); // Set the parent GameObject's position
+
         InitializeLineRenderers();
         GenerateAllControlPoints();
         InitializeRandomParameters();
@@ -41,13 +43,14 @@ public class OffsetLines : MonoBehaviour
         {
             GameObject lineObj = new GameObject("Line" + i);
             lineObj.transform.parent = transform;
+            lineObj.transform.localPosition = Vector3.zero; // Ensure the line object has no offset
 
             LineRenderer lineRenderer = lineObj.AddComponent<LineRenderer>();
             lineRenderer.positionCount = pointsPerLine;
             lineRenderer.material = lineMaterial;
             lineRenderer.widthCurve = new AnimationCurve(new Keyframe(0, 0.05f), new Keyframe(1, 0.05f));
             lineRenderer.colorGradient = lineColorGradient;
-            lineRenderer.useWorldSpace = false;
+            lineRenderer.useWorldSpace = false; // Use local space relative to the parent
             lineRenderers[i] = lineRenderer;
         }
     }

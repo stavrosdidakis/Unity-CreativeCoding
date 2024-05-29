@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mainMat
+  m_Name: mat5-3
   m_Shader: {fileID: 4800000, guid: b7d26b7f4eae04ecd93d9e16dfc7eef4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,7 +37,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: e9d821a12de744bb09eaf914b8aa0a12, type: 3}
+        m_Texture: {fileID: 2800000, guid: dde2609ddd90d43d896517558695b045, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -112,7 +112,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HueSpeed: 0.01
+    - _HueSpeed: 0.03
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
