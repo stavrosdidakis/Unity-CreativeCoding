@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/1 Curved Lines/CurvedLines.cs" />
+    <Compile Include="Assets/7 Grid Images/GridManager.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/6 Tangled Circles/TangledCircles.cs" />
     <Compile Include="Assets/2 Offset Lines/OffsetLines.cs" />
