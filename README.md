@@ -1,11 +1,7 @@
 # Unity-CreativeCoding
 A collection of creative coding examples in Unity, focusing on dynamic and generative visual effects.
 
-## Sketches
-
 ![Screenshot](README/sketches.png)
-
-## Included Projects
 
 ### 🌀 `LinesOscillation`
 Generates flowing, oscillating lines using Catmull-Rom splines. Each line has animated waveforms with Perlin noise and Z-axis motion, creating a lively, vibrating mesh effect.
