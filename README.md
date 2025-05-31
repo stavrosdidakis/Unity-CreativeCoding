@@ -3,7 +3,7 @@ A collection of creative coding examples in Unity, focusing on dynamic and gener
 
 ## Sketches
 
-![Screenshot](sketches.png)
+![Screenshot](README/sketches.png)
 
 ## Included Projects
 
