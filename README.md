@@ -4,27 +4,33 @@ A collection of creative coding examples in Unity, focusing on dynamic and gener
 ![Screenshot](README/sketches.png)
 
 ### 🌀 `LinesOscillation`
-![Screenshot](README/1.gif)
+<img src="README/1.gif" alt="Screenshot" width="50%" />
+
 Generates flowing, oscillating lines using Catmull-Rom splines. Each line has animated waveforms with Perlin noise and Z-axis motion, creating a lively, vibrating mesh effect.
 
 ### 🎨 `OffsetLines`
-![Screenshot](README/2.gif)
+<img src="README/2.gif" alt="Screenshot" width="50%" />
+
 Draws multiple offset lines with dynamic movement along Bezier curves. Randomized amplitudes and frequencies create a layered, vibrating structure. Uses gradient coloring for added depth.
 
 ### 🌌 `SpiralLines`
-![Screenshot](README/3.gif)
+<img src="README/3.gif" alt="Screenshot" width="50%" />
+
 Builds elegant, spiraling line structures that twist and animate in real-time. Each line has a randomized phase offset, resulting in a dynamic, swirling motion.
 
 ### 🌱 `PerlinLines`
-![Screenshot](README/4.gif)
+<img src="README/4.gif" alt="Screenshot" width="50%" />
+
 Lines that grow and twist over time, driven by Perlin noise. Lines expand and contract organically, creating a constantly shifting, evolving pattern.
 
 ### 🌀 `MorphedCircles`
-![Screenshot](README/5.gif)
+<img src="README/5.gif" alt="Screenshot" width="50%" />
+
 Creates circles that continuously morph their shape using Perlin noise, generating organic, pulsating forms. Each circle uses a different material or shader for visual diversity.
 
 ### 🧶 `TangledCircles`
-![Screenshot](README/5.gif)
+<img src="README/6.gif" alt="Screenshot" width="50%" />
+
 Generates hundreds of tangled circles in 3D space, driven by Perlin noise. Each line has a random color, producing a dense, chaotic, and beautiful mesh of motion.
 
 ---
