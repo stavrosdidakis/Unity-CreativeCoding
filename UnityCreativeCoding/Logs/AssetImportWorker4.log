@@ -1,0 +1,1080 @@
+Unity Editor version:    6000.0.50f1 (f1ef1dca8bff)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4.1 (c) (Build 22F770820d)
+Darwin version:          22.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.50f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/stavrosdidakis/Desktop/GitHub/Unity-CreativeCoding/UnityCreativeCoding
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64361
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/stavrosdidakis/Desktop/GitHub/Unity-CreativeCoding/UnityCreativeCoding
+/Users/stavrosdidakis/Desktop/GitHub/Unity-CreativeCoding/UnityCreativeCoding
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704725001792]  Target information:
+
+Player connection [140704725001792]  * "[IP] 192.168.71.30 [Port] 0 [Flags] 2 [Guid] 165791339 [EditorId] 165791339 [Version] 1048832 [Id] OSXEditor(0,NYUSH2417LP-MX.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704725001792]  * "[IP] 10.208.99.21 [Port] 0 [Flags] 2 [Guid] 165791339 [EditorId] 165791339 [Version] 1048832 [Id] OSXEditor(0,NYUSH2417LP-MX.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704725001792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704725001792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.50f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/stavrosdidakis/Desktop/GitHub/Unity-CreativeCoding/UnityCreativeCoding/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.50f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.50f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.50f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.50f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001120 seconds.
+- Loaded All Assemblies, in  0.486 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.525 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (206ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (525ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.724 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.697 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (129ms)
+			BuildScriptInfoCaches (40ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.50f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3492 unused Assets / (3.5 MB). Loaded Objects now: 4167.
+Memory consumption went from 137.3 MB to 133.7 MB.
+Total: 7.351120 ms (FindLiveObjects: 0.415147 ms CreateObjectMapping: 0.464152 ms MarkObjects: 5.045020 ms  DeleteObjects: 1.425928 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 83103.239408 seconds.
+  path: Assets/7 Grid Images
+  artifactKey: Guid(49dc7727eb27142a1bf6a39f7c803be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7 Grid Images using Guid(49dc7727eb27142a1bf6a39f7c803be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06efdfaf05f8bf32715373acc9c98da2') in 0.004480646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.505037 seconds.
+  path: Assets/MainScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a63da672b41fad94278e9caa1ac4c3c7') in 0.000516731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.986338 seconds.
+  path: Assets/MainScene 1.unity
+  artifactKey: Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene 1.unity using Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '194ae553f098667cd50b5bcaf1ce7169') in 0.000553704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192708 seconds.
+  path: Assets/MainScene 2.unity
+  artifactKey: Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene 2.unity using Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2061329c4802df4d200a0817e4f73799') in 0.000542405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.151327 seconds.
+  path: Assets/MainScene 3.unity
+  artifactKey: Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene 3.unity using Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f35e0e5faa31383984ace2828a13ebe') in 0.000526902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160796 seconds.
+  path: Assets/MainScene 4.unity
+  artifactKey: Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene 4.unity using Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8d0206b126e4705a9573b4a7b930302') in 0.000533565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168078 seconds.
+  path: Assets/MainScene 5.unity
+  artifactKey: Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene 5.unity using Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd227039fff2607c33bf9383752eba53e') in 0.000519073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184759 seconds.
+  path: Assets/MainScene 6.unity
+  artifactKey: Guid(faa0dac19f96d4b8fb90fe8c42cecdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene 6.unity using Guid(faa0dac19f96d4b8fb90fe8c42cecdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47a52fcde5e4eb4bc7a16762b5772470') in 0.00052329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968397 seconds.
+  path: Assets/MainScene 1.unity
+  artifactKey: Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MainScene 1.unity using Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c7e1dd910fa64db5d8ea3144f085a9e') in 0.223421757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.810636 seconds.
+  path: Assets/1 Curved Lines.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 Curved Lines.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1189e7db79229f609b49c095c21d5e2c') in 0.000497332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933189 seconds.
+  path: Assets/1 Curved Lines.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/1 Curved Lines.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87596f9998507455995b4fa751d749e6') in 0.004128964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626618 seconds.
+  path: Assets/2.unity
+  artifactKey: Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2.unity using Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8c3dfed8ea7690aca7a5371a45cdf7e') in 0.000493502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.689215 seconds.
+  path: Assets/2 Offset Lines
+  artifactKey: Guid(d5e2e69fd668a405998c628ad94c8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Offset Lines using Guid(d5e2e69fd668a405998c628ad94c8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12703fb2227a7bac22de16c57ff37dfe') in 0.000648342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.184169 seconds.
+  path: Assets/2.unity
+  artifactKey: Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/2.unity using Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd632a1e865cc5476d32923aef3bd21f5') in 0.004726574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.372432 seconds.
+  path: Assets/1 Curved Lines
+  artifactKey: Guid(7cfd5fd49533a4f0f9c4e1cef145da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 Curved Lines using Guid(7cfd5fd49533a4f0f9c4e1cef145da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c98fea94bf373f7311a5dc99cbd5343a') in 0.000722715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.845556 seconds.
+  path: Assets/2 Offset Lines.unity
+  artifactKey: Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Offset Lines.unity using Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10b85dbe7246c0978c09cce8fb639e05') in 0.000450166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940530 seconds.
+  path: Assets/2 Offset Lines.unity
+  artifactKey: Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/2 Offset Lines.unity using Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24b74f4a4d53931460c7a7cef525c5e7') in 0.00377837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.531220 seconds.
+  path: Assets/3 Spiral Lines.unity
+  artifactKey: Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 Spiral Lines.unity using Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c55076b20a4411a2554fd65ad465dae') in 0.000434233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940685 seconds.
+  path: Assets/3 Spiral Lines.unity
+  artifactKey: Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3 Spiral Lines.unity using Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cfdb373ddfe59c12fb79eb3bc742b61') in 0.004494207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.904900 seconds.
+  path: Assets/4 Perlin Lines.unity
+  artifactKey: Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4 Perlin Lines.unity using Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bbd904a38deaac8356581602b698bf0') in 0.000433224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.933805 seconds.
+  path: Assets/4 Perlin Lines.unity
+  artifactKey: Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/4 Perlin Lines.unity using Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '607573b17b2e44539cbcbf3e96e00231') in 0.00418144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.432315 seconds.
+  path: Assets/5 Morphed Lines.unity
+  artifactKey: Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 Morphed Lines.unity using Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1262203a7c282626af64f9aeec747690') in 0.000428098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936604 seconds.
+  path: Assets/5 Morphed Lines.unity
+  artifactKey: Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/5 Morphed Lines.unity using Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8d3850c163dde8a26a18c9eadc1f512') in 0.005668137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.694924 seconds.
+  path: Assets/6 Tangled Circles.unity
+  artifactKey: Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 Tangled Circles.unity using Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9190341ac4891c2629fb9b6bdc4cdc7') in 0.000463887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938904 seconds.
+  path: Assets/6 Tangled Circles.unity
+  artifactKey: Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/6 Tangled Circles.unity using Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a5a3f8123369a67f4f1f11f3e9be89d') in 0.00376242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.678432 seconds.
+  path: Assets/6 Tangled Circles
+  artifactKey: Guid(a53ced0d44f774585b5a714e06cd13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 Tangled Circles using Guid(a53ced0d44f774585b5a714e06cd13f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '699f9bfeb411d222ac626e9ec4716c7c') in 0.000480923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.268765 seconds.
+  path: Assets/5 Morphed Circles
+  artifactKey: Guid(fcc79714e677d4c0fbf696ff36927e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 Morphed Circles using Guid(fcc79714e677d4c0fbf696ff36927e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2caab276d336ea0d7568c9760902839') in 0.000393098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.778806 seconds.
+  path: Assets/5 Morphed Circles.unity
+  artifactKey: Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 Morphed Circles.unity using Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69d5c4bd00394ebdc05c6c56074b06cc') in 0.000429987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939732 seconds.
+  path: Assets/5 Morphed Circles.unity
+  artifactKey: Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/5 Morphed Circles.unity using Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c8d5a6fcb5ffb2357298e2e4ce61f4b') in 0.003957539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.336533 seconds.
+  path: Assets/1 Curved Lines/1 Curved Lines.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/1 Curved Lines/1 Curved Lines.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41a600a51c8880c3d827f08d3dc5f10f') in 0.004534488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.371999 seconds.
+  path: Assets/2 Offset Lines/2 Offset Lines.unity
+  artifactKey: Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/2 Offset Lines/2 Offset Lines.unity using Guid(6f40615c26ae14c7f8993c70f3382eab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8af8879612dc8e5442049751cccbd5f') in 0.004681768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.259049 seconds.
+  path: Assets/3 Spiral Lines/3 Spiral Lines.unity
+  artifactKey: Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3 Spiral Lines/3 Spiral Lines.unity using Guid(0f5f00065e4f945d8a3e30d4ae7be435) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd145a8916ce39a586e98559d1ccf6b1e') in 0.004422775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.266482 seconds.
+  path: Assets/4 Perlin Lines/4 Perlin Lines.unity
+  artifactKey: Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/4 Perlin Lines/4 Perlin Lines.unity using Guid(51bf4b5d7ee0247109fc28863fec40a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b3bce9efc63c97ae46765ced878be21') in 0.006913651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225967 seconds.
+  path: Assets/5 Morphed Circles/5 Morphed Circles.unity
+  artifactKey: Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/5 Morphed Circles/5 Morphed Circles.unity using Guid(7e8a02cf3159c423fb256901e3a7e652) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d2311bd363ce3a977afcb05fef72b9a') in 0.004212492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145459 seconds.
+  path: Assets/6 Tangled Circles/6 Tangled Circles.unity
+  artifactKey: Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/6 Tangled Circles/6 Tangled Circles.unity using Guid(c91f7d82a82e340618cbf7d514f17dca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be63b3918c997b1f0ee62cedc5ec0b27') in 0.003787099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.997848 seconds.
+  path: Assets/1 Curved Lines/mat1.mat
+  artifactKey: Guid(52bc857469d284726acd55172091edad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1 Curved Lines/mat1.mat using Guid(52bc857469d284726acd55172091edad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cd08800070d79c9bc6bb18943a16c6a') in 0.426505186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1383ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (697ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3491 unused Assets / (3.3 MB). Loaded Objects now: 4245.
+Memory consumption went from 131.9 MB to 128.5 MB.
+Total: 8.377185 ms (FindLiveObjects: 0.460745 ms CreateObjectMapping: 0.618214 ms MarkObjects: 5.668517 ms  DeleteObjects: 1.628855 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.517688 seconds.
+  path: Assets/2 Offset Lines/mat2.mat
+  artifactKey: Guid(4f1d0c7d9730044a58703233412960b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Offset Lines/mat2.mat using Guid(4f1d0c7d9730044a58703233412960b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7212086c65363fb8e7c186dcc2980bce') in 0.426657615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1378ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3491 unused Assets / (3.1 MB). Loaded Objects now: 4267.
+Memory consumption went from 126.3 MB to 123.2 MB.
+Total: 7.263246 ms (FindLiveObjects: 0.387958 ms CreateObjectMapping: 0.413026 ms MarkObjects: 5.017339 ms  DeleteObjects: 1.444078 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.629494 seconds.
+  path: Assets/3 Spiral Lines/mat3.mat
+  artifactKey: Guid(b68e8a726e7b2434ab92010e9361c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3 Spiral Lines/mat3.mat using Guid(b68e8a726e7b2434ab92010e9361c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b2ee682b33ebd1292e9a396f465693c') in 0.376976857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.688 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1350ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (110ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (662ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3491 unused Assets / (3.3 MB). Loaded Objects now: 4289.
+Memory consumption went from 126.3 MB to 123.0 MB.
+Total: 7.564590 ms (FindLiveObjects: 0.376210 ms CreateObjectMapping: 0.460285 ms MarkObjects: 5.339509 ms  DeleteObjects: 1.387776 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.301450 seconds.
+  path: Assets/4 Perlin Lines/mat4.mat
+  artifactKey: Guid(bc4311190e6974e21847f78f7a702dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4 Perlin Lines/mat4.mat using Guid(bc4311190e6974e21847f78f7a702dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd223bb4f610938b2bdd9418c8fe0e1fb') in 0.37651674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.689 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1353ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3491 unused Assets / (3.4 MB). Loaded Objects now: 4311.
+Memory consumption went from 126.3 MB to 122.9 MB.
+Total: 8.174908 ms (FindLiveObjects: 0.380609 ms CreateObjectMapping: 0.744165 ms MarkObjects: 5.277730 ms  DeleteObjects: 1.771484 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.723 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3490 unused Assets / (3.2 MB). Loaded Objects now: 4313.
+Memory consumption went from 126.2 MB to 123.0 MB.
+Total: 8.327351 ms (FindLiveObjects: 0.456647 ms CreateObjectMapping: 0.605540 ms MarkObjects: 5.677464 ms  DeleteObjects: 1.586703 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.387914 seconds.
+  path: Assets/6 Tangled Circles/mat6.mat
+  artifactKey: Guid(4b33610d364cd47219b44858d3b5057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6 Tangled Circles/mat6.mat using Guid(4b33610d364cd47219b44858d3b5057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f4149b398a4427c9804eb5720f945f8') in 0.655348251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.798 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@fe5368074162/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1574ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3491 unused Assets / (3.2 MB). Loaded Objects now: 4335.
+Memory consumption went from 126.4 MB to 123.2 MB.
+Total: 7.802086 ms (FindLiveObjects: 0.431419 ms CreateObjectMapping: 0.460245 ms MarkObjects: 5.483827 ms  DeleteObjects: 1.425673 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.511835 seconds.
+  path: Assets/7 Grid Images/gridMat.mat
+  artifactKey: Guid(18078961860cc4dcc808c16f73f499f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7 Grid Images/gridMat.mat using Guid(18078961860cc4dcc808c16f73f499f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09ccb7f20a152e5be5865e195ed0290c') in 0.451126252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.857457 seconds.
+  path: Assets/Resources/Textures/1.png
+  artifactKey: Guid(e4718d99948a64deca03b8e14ff6674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/1.png using Guid(e4718d99948a64deca03b8e14ff6674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91bf16cb59e09e5d129959049371f303') in 0.025750973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Resources/Textures/18.png
+  artifactKey: Guid(739edcd9d4fba4a53b3af7729ed3de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/18.png using Guid(739edcd9d4fba4a53b3af7729ed3de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f61e20bba59c5c19566ef0940596fb2') in 0.009472016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Resources/Textures/16.png
+  artifactKey: Guid(b090ed14d8a7b4e11995ddb66203281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/16.png using Guid(b090ed14d8a7b4e11995ddb66203281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cc8cccf30f29b7638024896e7ba27ac') in 0.009789182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Resources/Textures/25.png
+  artifactKey: Guid(fd43ff7940def400481bf44a559cd086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/25.png using Guid(fd43ff7940def400481bf44a559cd086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fec206e0bf2bc656aa338ca67e56884e') in 0.010598113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Resources/Textures/4.png
+  artifactKey: Guid(45d8d80a83d754a6ca269bf239ec7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/4.png using Guid(45d8d80a83d754a6ca269bf239ec7259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f00392b921ea4e30a1a424c79af2069') in 0.009432777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Resources/Textures/24.png
+  artifactKey: Guid(1db6c90b7589542329c4a704e43becd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/24.png using Guid(1db6c90b7589542329c4a704e43becd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab328e9feb92b801495a09203f3bc249') in 0.011204224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Resources/Textures/20.png
+  artifactKey: Guid(d72a5a3cebc3549fe87d1323fd245983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/20.png using Guid(d72a5a3cebc3549fe87d1323fd245983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eb4fe41466cc04c83fbd7009dff2bbf') in 0.008926298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Resources/Textures/21.png
+  artifactKey: Guid(241d102b13fc54e8eb038e551dd23048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/21.png using Guid(241d102b13fc54e8eb038e551dd23048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15eb9fda01acf7cde1bab28b825a8193') in 0.010429656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Resources/Textures/19.png
+  artifactKey: Guid(4c3be0c1665324e59b7f91bcd61db73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/19.png using Guid(4c3be0c1665324e59b7f91bcd61db73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1fe9fd7f2677cf4760da426a8a7ccf4') in 0.009479946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Resources/Textures/27.png
+  artifactKey: Guid(00aad57ddff4b431e96ec6d6ab231997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/27.png using Guid(00aad57ddff4b431e96ec6d6ab231997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee8038c5d2f34f223dc2408b731b602c') in 0.008881443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Resources/Textures/14.png
+  artifactKey: Guid(c0fc4df98315c49e7a2a72b3ffcf09a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/14.png using Guid(c0fc4df98315c49e7a2a72b3ffcf09a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a0ceae8b4a08dda064a9f45cf3cbbb') in 0.007858826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Resources/Textures/28.png
+  artifactKey: Guid(cc5200034fce347d9a686560e99823b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/28.png using Guid(cc5200034fce347d9a686560e99823b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9abb08e16803b01d4544b4ce6728e387') in 0.008786506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Resources/Textures/23.png
+  artifactKey: Guid(ea65db78b149b43eeb90baceb971575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/23.png using Guid(ea65db78b149b43eeb90baceb971575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8b15d9c39bf4e82bd24b1746ee6af4') in 0.008010653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Resources/Textures/29.png
+  artifactKey: Guid(3c7d449c82cdd40b89482bfc1891b605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/29.png using Guid(3c7d449c82cdd40b89482bfc1891b605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d91a180cef372bf2b49f542b74c396d') in 0.009753711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Resources/Textures/3.png
+  artifactKey: Guid(3333fac571fe44a18b818943face9881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/3.png using Guid(3333fac571fe44a18b818943face9881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4c5a423725fa3044f190c43d9ede42') in 0.010932006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Resources/Textures/10.png
+  artifactKey: Guid(989897d0d820b4094900d70c96ea5723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/10.png using Guid(989897d0d820b4094900d70c96ea5723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f0342b2e8d2485e83dd2d807e012404') in 0.013868644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
