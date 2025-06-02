@@ -21,8 +21,7 @@ public class LinesOscillation : MonoBehaviour
 
     void Start()
     {
-        // Ensure the parent GameObject is at the origin
-        transform.position = new Vector3 (-5, -10, 12);
+        transform.position = new Vector3(0, -10, 12); // Center horizontally
 
         lineRenderers = new LineRenderer[numberOfLines];
         controlPoints = new Vector3[numberOfLines][];
@@ -31,7 +30,7 @@ public class LinesOscillation : MonoBehaviour
         {
             GameObject lineObj = new GameObject("Line" + i);
             lineObj.transform.parent = transform;
-            lineObj.transform.localPosition = Vector3.zero; // Ensure the line object has no offset
+            lineObj.transform.localPosition = Vector3.zero;
 
             LineRenderer lineRenderer = lineObj.AddComponent<LineRenderer>();
             lineRenderer.positionCount = pointsPerLine;
@@ -58,11 +57,16 @@ public class LinesOscillation : MonoBehaviour
         int controlPointCount = pointsPerLine / 10;
         controlPoints[lineIndex] = new Vector3[controlPointCount];
 
+        // Calculate total width based on camera's view
+        float zDistance = Mathf.Abs(Camera.main.transform.position.z - transform.position.z);
+        float cameraWidth = 2f * zDistance * Mathf.Tan(Camera.main.fieldOfView * 0.5f * Mathf.Deg2Rad) * Camera.main.aspect;
+        float totalWidth = cameraWidth * 1.5f; // 1.5x to extend beyond edges
+
         for (int i = 0; i < controlPointCount; i++)
         {
-            float x = i * 1.0f / controlPointCount * 10;
+            float x = i * (totalWidth / controlPointCount);
             float y = lineIndex * lineSpacing;
-            controlPoints[lineIndex][i] = new Vector3(x, y, 0);
+            controlPoints[lineIndex][i] = new Vector3(x - totalWidth / 2f, y, 0); // Centered
         }
     }
 
@@ -101,9 +105,8 @@ public class LinesOscillation : MonoBehaviour
         );
 
         float noise = Mathf.PerlinNoise(pos.x * noiseScale, pos.y * noiseScale) * noiseIntensity;
-        pos.y += Mathf.Sin(time + pos.x) * (currentAmplitude + noise); // Oscillation effect with noise
-
-        pos.z = Mathf.Sin(time + pos.x * zFrequency) * zAmplitude; // Adding Z-axis oscillation
+        pos.y += Mathf.Sin(time + pos.x) * (currentAmplitude + noise);
+        pos.z = Mathf.Sin(time + pos.x * zFrequency) * zAmplitude;
 
         return pos;
     }

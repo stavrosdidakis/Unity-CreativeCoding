@@ -22,7 +22,7 @@ public class OffsetLines : MonoBehaviour
 
     void Start()
     {
-        transform.position = new Vector3(-5, -5, 8); // Set the parent GameObject's position
+        transform.position = new Vector3(0, -5, 8);
 
         InitializeLineRenderers();
         GenerateAllControlPoints();
@@ -43,14 +43,14 @@ public class OffsetLines : MonoBehaviour
         {
             GameObject lineObj = new GameObject("Line" + i);
             lineObj.transform.parent = transform;
-            lineObj.transform.localPosition = Vector3.zero; // Ensure the line object has no offset
+            lineObj.transform.localPosition = Vector3.zero;
 
             LineRenderer lineRenderer = lineObj.AddComponent<LineRenderer>();
             lineRenderer.positionCount = pointsPerLine;
             lineRenderer.material = lineMaterial;
             lineRenderer.widthCurve = new AnimationCurve(new Keyframe(0, 0.05f), new Keyframe(1, 0.05f));
             lineRenderer.colorGradient = lineColorGradient;
-            lineRenderer.useWorldSpace = false; // Use local space relative to the parent
+            lineRenderer.useWorldSpace = false;
             lineRenderers[i] = lineRenderer;
         }
     }
@@ -88,11 +88,16 @@ public class OffsetLines : MonoBehaviour
         int controlPointCount = pointsPerLine / 10;
         controlPoints[lineIndex] = new Vector3[controlPointCount];
 
+        // Calculate wider total width beyond camera view
+        float zDistance = Mathf.Abs(Camera.main.transform.position.z - transform.position.z);
+        float cameraWidth = 2f * zDistance * Mathf.Tan(Camera.main.fieldOfView * 0.5f * Mathf.Deg2Rad) * Camera.main.aspect;
+        float totalWidth = cameraWidth * 1.5f; // Multiplied to extend beyond the edges
+
         for (int i = 0; i < controlPointCount; i++)
         {
-            float x = i * 1.0f / controlPointCount * 10;
+            float x = i * (totalWidth / controlPointCount);
             float y = lineIndex * lineSpacing;
-            controlPoints[lineIndex][i] = new Vector3(x, y, 0);
+            controlPoints[lineIndex][i] = new Vector3(x - totalWidth / 2f, y, 0);
         }
     }
 
@@ -127,9 +132,9 @@ public class OffsetLines : MonoBehaviour
                       Mathf.Pow(u, 3) * d;
 
         float noise = Mathf.PerlinNoise(pos.x * noiseScale, pos.y * noiseScale) * noiseIntensity;
-        pos.y += Mathf.Sin(time + pos.x) * (randomAmplitudes[lineIndex] + noise); // Oscillation effect with noise
-        pos.x += Mathf.Sin(time + pos.y) * zAmplitude; // Adding X-axis oscillation
-        pos.z = Mathf.Sin(time + pos.x * zFrequency) * zAmplitude; // Adding Z-axis oscillation
+        pos.y += Mathf.Sin(time + pos.x) * (randomAmplitudes[lineIndex] + noise);
+        pos.x += Mathf.Sin(time + pos.y) * zAmplitude;
+        pos.z = Mathf.Sin(time + pos.x * zFrequency) * zAmplitude;
 
         return pos;
     }
